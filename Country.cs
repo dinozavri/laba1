@@ -11,5 +11,11 @@ namespace pr_1
         public string Name{get; set;}
         public string Form_of_government{ get; set;}
         public float Area { get; set;}
+        public Country ()
+        {
+            Name = "Беларусь";
+            Form_of_government = "Республика";
+            Area= 208000;
+        }
     }
 }
